@@ -39,6 +39,8 @@ const storyRouterDecorator = (links = {}, routerProps = {}) => {
       if (!replaced) {
         action('PUSH')(getLocation(location));
       }
+
+      return Promise.resolve()
     };
 
     const originalReplace = router.replace.bind(router);
@@ -50,6 +52,8 @@ const storyRouterDecorator = (links = {}, routerProps = {}) => {
       if (!replaced) {
         action('REPLACE')(getLocation(location));
       }
+
+      return Promise.resolve()
     };
 
     if (routerProps.globalBeforeEach) {

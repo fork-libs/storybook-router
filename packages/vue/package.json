@@ -1,5 +1,5 @@
 {
-  "name": "storybook-vue-router",
+  "name": "@fork-libs/storybook-vue-router",
   "version": "1.0.7",
   "description": "A storybook decorator that allows you to use routing-aware components in your stories.",
   "main": "./dist/vue.js",
