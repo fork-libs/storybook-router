@@ -1,18 +1,18 @@
 {
   "name": "@fork-libs/storybook-vue-router",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A storybook decorator that allows you to use routing-aware components in your stories.",
   "main": "./dist/vue.js",
   "license": "MIT",
-  "author": "Gianni Valdambrini",
+  "author": "tx-fork-libs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gvaldambrini/storybook-router.git"
+    "url": "https://github.com/fork-libs/storybook-router.git"
   },
   "bugs": {
-    "url": "https://github.com/gvaldambrini/storybook-router/issues"
+    "url": "https://github.com/fork-libs/storybook-router/issues"
   },
-  "homepage": "https://github.com/gvaldambrini/storybook-router",
+  "homepage": "https://github.com/fork-libs/storybook-router/tree/master/packages/vue",
   "keywords": [
     "storybook",
     "vue",
@@ -35,6 +35,7 @@
     "vue-router": "^3.0.2",
     "vue-template-compiler": "^2.6.9"
   },
+  "typings": "vue.d.ts",
   "scripts": {
     "prepublish": "NODE_ENV=production npm run build",
     "build": "babel -d dist/ vue.js"
